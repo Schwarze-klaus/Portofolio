@@ -1,0 +1,49 @@
+# Déployer et mettre à jour mon site React sur Vercel (avec GitHub)
+
+## 1. Première mise en ligne (déploiement initial)
+
+1. Ouvre un terminal dans le dossier de ton projet (là où il y a le dossier project/)
+2. Initialise git (si ce n'est pas déjà fait) :
+   git init
+3. Ajoute tous les fichiers :
+   git add .
+4. Fais un commit :
+   git commit -m "Initial commit"
+5. Crée la branche principale :
+   git branch -M main
+6. Ajoute le dépôt distant (remplace par ton URL GitHub) :
+   git remote add origin https://github.com/<ton-utilisateur>/<ton-repo>.git
+7. Pousse le code sur GitHub :
+   git push -u origin main
+
+8. Sur Vercel :
+   - Connecte-toi sur https://vercel.com/
+   - Clique sur "New Project"
+   - Sélectionne ton repo GitHub
+   - Configure le "Root Directory" sur project
+   - Build Command : npm run build
+   - Output Directory : dist
+   - Clique sur "Deploy"
+
+## 2. Mettre à jour le site (après modification du code)
+
+1. Ouvre un terminal dans le dossier du projet
+2. Ajoute les fichiers modifiés :
+   git add .
+3. Fais un commit :
+   git commit -m "Description de la mise à jour"
+4. Pousse sur GitHub :
+   git push
+
+Vercel va automatiquement redéployer la nouvelle version du site !
+
+---
+
+**Résumé ultra-court :**
+
+Pour chaque mise à jour :
+1. git add .
+2. git commit -m "Mon message"
+3. git push
+
+Ton site sera à jour en ligne après quelques minutes. 

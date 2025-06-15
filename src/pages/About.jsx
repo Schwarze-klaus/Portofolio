@@ -13,13 +13,13 @@ const timeline = [
     year: '2022-2023',
     title: 'Baccalauréat Scientifique D',
     place: 'Lycée Ba Oumar, Libreville',
-    desc: "Diplôme obtenu en 2024, compétences en mathématiques, biologie, géologie et sciences physiques. Développement de la pensée analytique et de la méthodologie scientifique."
+    desc: "Diplôme obtenu en 2023, compétences en mathématiques, biologie, géologie et sciences physiques. Développement de la pensée analytique et de la méthodologie scientifique."
   },
   {
     year: '2023-2026',
     title: 'Licence Génie Logiciel & Admin. Systèmes',
     place: 'Institut de Management et des Sciences Appliquées',
-    desc: "Formation en développement logiciel, gestion de bases de données et administration des systèmes. Approfondissement en architecture des SI."
+    desc: "Formation en développement d'application web et mobile, gestion de bases de données et administration des systèmes. Approfondissement en architecture des SI."
   }
 ];
 
